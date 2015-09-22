@@ -69,7 +69,7 @@ module.exports = function(db, app, versionData, versionData_v2, maintenance, api
           name: regexp
         }, {
           'fields': {
-            '_id': 0,
+            //'_id': 0,
             'name': 1
           }
         }).success(function(delegates) {
@@ -92,7 +92,7 @@ module.exports = function(db, app, versionData, versionData_v2, maintenance, api
         _id: parseInt(req.params.id, 10)
       }, {
         'fields': {
-          '_id': 0,
+          // '_id': 0,
           'name': 1
         }
       }).success(function(delegate) {
