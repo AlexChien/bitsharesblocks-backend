@@ -44,3 +44,6 @@ setInterval(function() {
 price.update();
 // assets.updateAll();
 
+// if assetCount == 0
+// assets.updateAll();
+// supply.update();
